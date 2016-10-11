@@ -1,0 +1,52 @@
+current directory: /root/scripts/ruby/app/vendor/cache/gems/ffi-1.9.14/ext/ffi_c
+/usr/local/rvm/rubies/ruby-2.3.0/bin/ruby -r ./siteconf20161010-3533-tmy6ib.rb extconf.rb
+checking for ffi_call() in -lffi... yes
+checking for ffi_prep_closure()... yes
+checking for ffi_raw_call()... yes
+checking for ffi_prep_raw_closure()... yes
+checking for rb_thread_blocking_region()... no
+checking for rb_thread_call_with_gvl()... yes
+checking for rb_thread_call_without_gvl()... yes
+checking for ffi_prep_cif_var()... yes
+creating extconf.h
+creating Makefile
+
+To see why this extension failed to compile, please check the mkmf.log which can be found here:
+
+  /root/scripts/ruby/app/vendor/cache/extensions/x86_64-linux/2.3.0/ffi-1.9.14/mkmf.log
+
+current directory: /root/scripts/ruby/app/vendor/cache/gems/ffi-1.9.14/ext/ffi_c
+make "DESTDIR=" clean
+
+current directory: /root/scripts/ruby/app/vendor/cache/gems/ffi-1.9.14/ext/ffi_c
+make "DESTDIR="
+compiling Type.c
+compiling Call.c
+compiling MappedType.c
+compiling ffi.c
+compiling Struct.c
+compiling DynamicLibrary.c
+compiling MemoryPointer.c
+compiling StructLayout.c
+compiling ArrayType.c
+compiling AbstractMemory.c
+compiling Types.c
+compiling Thread.c
+compiling LongDouble.c
+compiling DataConverter.c
+compiling StructByReference.c
+compiling MethodHandle.c
+compiling LastError.c
+compiling FunctionInfo.c
+compiling ClosurePool.c
+compiling Function.c
+compiling Buffer.c
+compiling Platform.c
+compiling StructByValue.c
+compiling Pointer.c
+compiling Variadic.c
+linking shared-object ffi_c.so
+
+current directory: /root/scripts/ruby/app/vendor/cache/gems/ffi-1.9.14/ext/ffi_c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 ffi_c.so ./.gem.20161010-3533-t02m6o
